@@ -20,7 +20,7 @@ jobs:
           fetch-depth: 0
 
       - name: Lint Code Base
-         uses: super-linter/super-linter@v7.2.1 # x-release-please-version
+        uses: super-linter/super-linter@v7.2.1 # x-release-please-version
         env:
           VALIDATE_ALL_CODEBASE: true
           DEFAULT_BRANCH: "main"
